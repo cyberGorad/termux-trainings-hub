@@ -1,4 +1,4 @@
-import { Terminal, Package, Tool, Command } from "lucide-react";
+import { Terminal, Package, Wrench, Command } from "lucide-react";
 import { CategoryCard } from "@/components/CategoryCard";
 
 const Index = () => {
@@ -34,7 +34,7 @@ const Index = () => {
           <CategoryCard
             title="Outils"
             description="Les outils essentiels pour le pentesting et le développement"
-            icon={<Tool className="w-6 h-6 text-terminal-purple" />}
+            icon={<Wrench className="w-6 h-6 text-terminal-purple" />}
             to="/tools"
           />
         </div>
